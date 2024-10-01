@@ -1,0 +1,198 @@
+:root {
+    --fundo-principal: #CD853F;
+    --fundo-secundario: #a52a2a;
+    --fonte-principal: 'Playfair Display';
+}
+
+.body {
+    font-family: var(--fonte-principal);
+    background-size: contain;
+    color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-color: var(--fundo-principal);
+    align-items: center;
+    text-align: center;
+}
+
+.container1 {
+    height: 75vh;
+    display: grid;
+    grid-template-rows: 100%;
+}
+
+.container__titulo {
+    font-size: 175px;
+    font-weight: 600;
+}
+
+.secundario {
+    font-family: var(--fonte-principal);
+    background-color: var(--fundo-secundario);
+}
+
+.titulo-2 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    color: darksalmon;
+}
+
+.container__descricao {
+    font-size: 25px;
+    font-weight: 200;
+    margin-left: 1em;
+    color: darksalmon;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.imagem-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.img {
+    width: 80%;
+    max-height: 70%;
+}
+
+.container-3 {
+    font-family: var(--fonte-principal);
+    background-color: var(--fundo-secundario);
+    height: 50vh;
+    display: grid;
+    grid-template-rows: 100%;
+}
+
+.titulo-3 {
+    margin-top: 4em;
+    font-size: 50px;
+    font-weight: 500;
+    align-items: center;
+    text-align: center;
+    color: darksalmon;
+}
+
+.container-4 {
+    font-family: var(--fonte-principal);
+    background-color: var(--fundo-secundario);
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.lista-beneficios {
+    font-size: 25px;
+    font-weight: 450;
+    list-style: none;
+    margin-left: 1em;
+    margin-top: 1em;
+    color: darksalmon;
+}
+
+.lista-beneficios-2 {
+    font-size: 25px;
+    font-weight: 450;
+    margin-top: 1em;
+    list-style: none;
+    color: darksalmon;
+}
+
+.lista-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.lista-item img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.container-5 {
+    font-family: var(--fonte-principal);
+    background-color: var(--fundo-secundario);
+}
+
+.onde-encontrar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.titulo-4 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-left: 1em;
+    color: darksalmon;
+}
+
+.descricao-2 {
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 2em;
+    margin-top: 2em;
+    color: darksalmon;
+}
+
+.container__botao{
+    background-color: burlywood;
+    border-radius: 5px;
+    padding: 10px;
+    color:rgb(88, 21, 21);
+    margin-left: 24em;
+}
+
+.imagem-calendario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    max-width: 40%;
+    height: 40%;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1em;
+  }
+  
+  .lista__link a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 20px; 
+    border-radius: 5px;
+  }
+  
+  .rodape__texto {
+    text-align: center;
+    margin-top: 1em;
+    color: whitesmoke;
+  }
+  
+  .rodape {
+    background-color: black; 
+    text-align: center;
+    padding: 20px;
+  }
